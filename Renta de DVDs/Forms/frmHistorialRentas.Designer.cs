@@ -48,6 +48,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHistorial)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,11 +125,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(354, 214);
+            this.label4.Location = new System.Drawing.Point(32, 220);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(413, 20);
+            this.label4.Size = new System.Drawing.Size(400, 20);
             this.label4.TabIndex = 35;
-            this.label4.Text = "Para ver la información presione el titulo de la pelicula";
+            this.label4.Text = "Para ver la información del cliente presione en su ID";
             // 
             // label3
             // 
@@ -250,11 +251,22 @@
             this.Column6.ReadOnly = true;
             this.Column6.Width = 125;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(570, 220);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(418, 20);
+            this.label8.TabIndex = 42;
+            this.label8.Text = "Para ver la información de la pelicula presione su título";
+            // 
             // frmHistorialRentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1176, 709);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnBuscarCliente);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtApellido);
@@ -299,5 +311,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.Label label8;
     }
 }
